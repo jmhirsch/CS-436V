@@ -1,0 +1,66 @@
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 13px;
+  padding: 30px;
+}
+
+.container {
+  width: 800px;
+  margin: 0 auto;
+}
+
+
+.legend{
+  stroke: #333;
+  stroke-width:0.2;
+  r: 7px;
+}
+
+.legend-text{
+  font-size: 14px;
+}
+
+.mark{
+  fill-opacity: .6;
+  stroke: #333;
+  stroke-width: 0.3;
+}
+
+.winter-storm-freeze{
+  fill: #ccc;
+}
+
+.drought-wildfire{
+  fill:#ffffd9;
+}
+
+.flooding{
+  fill:#41b6c4;
+}
+
+.tropical-cyclone{
+  fill:#081d58;
+}
+
+.severe-storm{
+  fill:#c7e9b4;
+}
+
+.nameLabel{
+  fill: rgba(0, 0, 0, 0.71)
+}
+
+#tooltip {
+  position: absolute;
+  display: none;
+  background: #fff;
+  box-shadow: 3px 3px 3px 0 rgb(92 92 92 / 0.5);
+  border: 1px solid #ddd;
+  font-size: 12px;
+  font-weight: 500;
+  padding-left: 6px;
+  padding-top: 4px;
+  padding-bottom: 6px;
+  padding-right: 6px;
+  color: #333;
+}
