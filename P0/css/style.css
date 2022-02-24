@@ -1,0 +1,37 @@
+body {
+  padding: 30px;
+  font-family: sans-serif;
+}
+
+.point{
+  fill: #2a80a5;
+  fill-opacity: 30%;
+  r: 8px;
+}
+
+.avg{
+  font-size: 15px;
+}
+
+.domain{
+  display:none;
+}
+
+.axis {
+  font-size: 12px
+}
+
+
+#avgLabel{
+  font-weight: 700;
+  text-anchor: end;
+}
+
+.means{
+  text-anchor: start;
+  font-size: 13px
+}
+
+.y-axis-right{
+  font-size: 14px;
+}
